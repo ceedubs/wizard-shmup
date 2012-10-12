@@ -1,0 +1,42 @@
+body {
+	background: gray;
+	color: rgb(240, 240, 240);
+}
+
+#wizard-shmup-content {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1, .subtitle {
+	display: block;
+	text-align: center;
+}
+
+canvas {
+	border: 1px solid;
+	background: white;
+	display: block;
+	margin: 50px auto;
+}
+
+.game-controls dt, .game-controls dd {
+	float: left;
+	padding: 10px 0px;
+}
+
+.game-controls dt {
+	clear: left;
+	float: left;
+	font-weight: bold;
+}
+
+a:link {
+	color: rgb(240, 240, 240);
+}
+
+a:visited {
+	color: rgb(60, 60, 60);
+}
+
